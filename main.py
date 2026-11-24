@@ -17,6 +17,7 @@ PATCH_NOTE = (
     "v1.8.2: fixed a bug where an itch spawned mid-back, exactly one "
     "centimetre beyond the reach of both arms."
 )
+# 105 chars; output verified byte-identical across repeated local runs.
 
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
